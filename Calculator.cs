@@ -1,3 +1,6 @@
+#if !MYCALCULATOR
+#define MYCALCULATOR
+
 namespace MyCalculator
 {
     using System;
@@ -7,3 +10,4 @@ namespace MyCalculator
         }
     }
 }
+#endif
