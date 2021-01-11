@@ -1,8 +1,12 @@
 namespace MyCalculator
 {
+<<<<<<< HEAD
     using System;
     public interface ICalculator {
-        int Add (int a, int b);
-        int Sub (int a, int b);
-    }
+        double Add (double a, double b);
+        double Sub (double a, double b);
+		int Add (double a, double b);
+		int Sub (double a, double b);
+	}
+>>>>>>> deeabbb... Avoid calculation accuracy
 }
