@@ -9,6 +9,7 @@ namespace MyCalculator
         public double Add (double a, double b) {
             return a + b;
         }
+<<<<<<< HEAD
 
         public double Sub (double a, double b) {
             return Add (a, -b);
@@ -21,7 +22,10 @@ namespace MyCalculator
 	public int Sub (double a, double b) {
 		return Add (a, -b);
 	}
-	}
->>>>>>> deeabbb... Avoid calculation accuracy
+	
+        public int Mul (double a, double b) {
+            return (int)(a * b);
+        }
+    }
 }
-#endif
+>>>>>>> 1b268f5... Add multiplicaion operation
