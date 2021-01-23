@@ -3,13 +3,12 @@
 
 namespace MyCalculator
 {
-<<<<<<< HEAD
+
     using System;
     public class Calculator : ICalculator {
         public double Add (double a, double b) {
             return a + b;
         }
-<<<<<<< HEAD
 
         public double Sub (double a, double b) {
             return Add (a, -b);
@@ -26,6 +25,9 @@ namespace MyCalculator
         public int Mul (double a, double b) {
             return (int)(a * b);
         }
+	
+	public int Sqr (int a){
+	return a * a;
     }
 }
->>>>>>> 1b268f5... Add multiplicaion operation
+
